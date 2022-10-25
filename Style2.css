@@ -1,0 +1,224 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-color: rgb(74, 73, 73);
+    background-image: url(images/Backgroung1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    overflow: hidden;
+
+}
+
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1024px;
+}
+
+header {
+height: 120px;
+width: 100%;
+background-image: linear-gradient(to right, rgba(25, 168, 207, 0.396), rgba(134, 85, 134, 0.658));
+
+
+}
+
+#logo{
+    position:static;
+    position: relative;
+    bottom: 165px;
+    left: 30px;
+
+    
+}
+
+
+h1 {
+    font-size: 70px;
+    font-family: 'Times New Roman', Times, serif;
+    color: silver;
+    text-align: center;
+    position: relative;
+    top: 15px;
+    /*text-shadow: 1px 1px 1px #919191,
+        1px 2px 1px #919191,
+        1px 3px 1px #919191,
+        1px 4px 1px #919191,
+        1px 5px 1px #919191,
+        1px 6px 1px #919191,
+        1px 7px 1px #919191,
+        1px 8px 1px #919191,
+        1px 9px 1px #919191,
+        1px 10px 1px #919191,
+        1px 18px 6px rgba(16,16,16,0.4),
+        1px 22px 10px rgba(16,16,16,0.2),
+        1px 25px 35px rgba(16,16,16,0.2),
+        1px 30px 60px rgba(16,16,16,0.4);*/
+    /*text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;*/
+
+    text-shadow: 0 0 3px #2927278c;
+    background: -webkit-linear-gradient(#eee, rgb(147, 165, 47));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+nav{
+    height: 40px;
+    background-color: rgba(128, 128, 128, 0.397); 
+    text-align: center;
+    
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+main {
+    height: 650px;
+    width: 100%;
+    /*background-color: rgba(67, 95, 67, 0.397);*/
+    background-color: transparent;
+    text-align: center;
+    padding-top: 20px;
+    
+}
+
+h2{
+    font-size: 30px;
+    color: silver;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style:normal;
+    text-shadow: 0 0 3px #2927278c;
+    background: -webkit-linear-gradient(rgb(255, 255, 255), rgb(8, 194, 211));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+
+
+ .AlexaImg img{
+    
+    position: relative;
+    top: 18px;
+    right: 390px;
+   /* border: 4px solid rgb(114, 112, 112);
+    border-radius: 10px;
+    padding: 5px;*/
+    box-shadow: 10px 10px 5px  rgba(25, 168, 207, 0.396);
+    
+}
+ 
+.CERTLOGO img{
+    
+    position: relative;
+    top: 55px;
+    right: 390px;
+    /*border: 4px solid rgb(114, 112, 112);
+    border-radius: 10px;
+    padding: 5px*/
+    box-shadow: 10px 10px 5px  rgba(25, 168, 207, 0.396);
+}
+
+.Linkedin img{
+    
+    position: relative;
+    top: 92px;
+    right: 390px;
+    /*border: 4px solid rgb(114, 112, 112);
+    border-radius: 10px;
+    padding: 5px*/
+    box-shadow: 10px 10px 5px  rgba(25, 168, 207, 0.396);
+}
+
+.SBOX1{
+    border: none;
+    padding: 5px;
+    font: 28px aerial;
+    width: 735px;
+    height: 600px;
+    overflow-y: scroll;
+    position: relative;
+    left: 260px;
+    bottom: 420px;
+    background-color: white;
+    /* background-color: rgba(202, 199, 199, 1);*/
+    box-shadow: 10px 10px 5px  rgba(134, 85, 134, 0.658);
+   
+} 
+
+
+.SBOX1 h5{
+    color: black;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    font-weight: bold;
+    line-height: 30px;
+
+}
+
+.SBOX1 p{
+    color: black;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    font-weight: bold;
+    line-height: 30px;
+
+}
+
+.SBOX1 ul{
+    color: black;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    font-weight: bold;
+    margin-right: 30px;
+    line-height: 20px;
+ }
+
+ .SBOX1 li{
+    margin: 12px 0;
+ }
+
+
+
+footer{
+    height:95px;
+    /*background-color:rgba(128, 128, 128, 0.395);*/
+    background-color: rgba(202, 199, 199, 0.37);
+    text-align: center;
+    width: 100%;
+    position: relative;
+    left: 0%;
+    bottom: 30px;
+    box-shadow: linear-gradient(to right blue purple);
+}
+
+h3{
+    font-size: 22px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style:normal;
+    position: relative;
+    top: 15px;
+}
+
+h4{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style:normal;
+    position: relative;
+    top: 20px;
+}
