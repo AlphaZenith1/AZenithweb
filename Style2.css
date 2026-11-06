@@ -195,7 +195,7 @@ h2{
 
 
 footer{
-    height:95px;
+    height:70px;
     /*background-color:rgba(128, 128, 128, 0.395);*/
     background-color: rgba(202, 199, 199, 0.37);
     text-align: center;
@@ -216,9 +216,10 @@ h3{
 }
 
 h4{
+    font-size: 12px;
     color: black;
     font-family: Arial, Helvetica, sans-serif;
     font-style:normal;
     position: relative;
-    top: 20px;
+    top: 8px;
 }
